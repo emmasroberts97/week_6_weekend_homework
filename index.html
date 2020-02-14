@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/app.js"></script>
+    <title>Animal List</title>
+  </head>
+  <body>
+  <h1>Animals</h1>
+    <h2>Add your animal!</h2>
+    <form id="animal-form">
+      <div id="form-wrapper">
+        <div class="form-item">
+          <label for="name" class="primary">Animal Name</label>
+          <input type="text" id="name" class="primary"/>
+        </div>
+
+        <div class="form-item">
+          <label for="type" class="primary">Animal Type</label>
+          <select id="type">
+            <option value="" disabled selected></option>
+            <option value="Mammal">Mammal</option>
+            <option value="Reptile">Reptile</option>
+            <option value="Amphibian">Amphibian</option>
+            <option value="Birds">Bird</option>
+            <option value="Fish">Fish</option>
+          </select>
+
+        <div class="form-item">
+          <label for="endangered" class="primary">Endangered?</label>
+          <select id="endangered">
+            <option value="" disabled selected></option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-item">
+        <label for="cuteness-level" class="primary">Cute Animal?</label>
+        <br/>
+        <label class="radio"><input type="radio" id="ofcourse" name="cuteness" value="Of Course!" class="radio"/>Of Course!</label>
+        <br/>
+        <label class="radio"><input type="radio" id="yes" name="cuteness" value="Yes!" class="radio"/>Yes!</label>
+      </div>
+      <input type="submit" value="Save" class="primary" id="submit-button"/>
+    </form>
+    <h1>Animal List</h1>
+    <p id='heading'></p>
+    <table id='animal-table'>
+      <tr>
+        <th>Animal</th>
+        <th>Classification</th>
+        <th>Endagered Status</th>
+        <th>Cute Animal?</th>
+        </tr>
+    </table>
+  </body>
+</html>

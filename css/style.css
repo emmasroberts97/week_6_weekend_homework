@@ -1,0 +1,78 @@
+body {
+  background-image: url('../background.jpeg');
+}
+
+td, th {
+  text-align: center;
+}
+
+td {
+  padding: 20px 50px 10px 40px;
+  border-bottom: 1px solid black;
+}
+
+th {
+  padding: 20px 20px 10px 0px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left:auto;
+  margin-right:auto;
+  width: 75%;
+  margin-top: 10px;
+  background-color: white;
+}
+
+
+input.primary {
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+select {
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label.primary {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-left: 550px;
+  font-weight: bold;
+}
+
+
+label.radio {
+  display: block;
+  padding-left: 550px;
+}
+
+#submit-button{
+  margin-top:10px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
