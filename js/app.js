@@ -23,8 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const animalFormSubmit = function(event) {
     event.preventDefault();
     createAnimal(event);
-
-    console.log(event);
     document.getElementById('animal-form').reset();
   };
 
