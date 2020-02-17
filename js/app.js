@@ -12,12 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
     name.innerHTML = `${event.target.name.value}`;
     type.innerHTML = `${event.target.type.value}`;
     status.innerHTML = `${event.target.endangered.value}`;
+    cuteness.innerHTML = `${event.target.cuteness.value}`
 
-    if (document.getElementById('ofcourse').checked) {
-      cuteness.innerHTML = `${event.target.ofcourse.value}`;
-    } else if (document.getElementById('yes').checked) {
-      cuteness.innerHTML = `${event.target.yes.value}`;
-    };
   };
 
   const animalFormSubmit = function(event) {
